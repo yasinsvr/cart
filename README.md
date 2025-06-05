@@ -1,15 +1,5 @@
-# Laravel 5 & 6 , 7 & 9 Shopping Cart
-[![Build Status](https://travis-ci.org/darryldecode/laravelshoppingcart.svg?branch=master)](https://travis-ci.org/darryldecode/laravelshoppingcart)
-[![Total Downloads](https://poser.pugx.org/darryldecode/cart/d/total.svg)](https://packagist.org/packages/darryldecode/cart)
-[![License](https://poser.pugx.org/darryldecode/cart/license.svg)](https://packagist.org/packages/darryldecode/cart)
-
+# Laravel Shopping Cart
 A Shopping Cart Implementation for Laravel Framework
-
-## QUICK PARTIAL DEMO
-
-Demo: https://shoppingcart-demo.darrylfernandez.com/cart
-
-Git repo of the demo: https://github.com/darryldecode/laravelshoppingcart-demo
 
 ## INSTALLATION
 
@@ -880,10 +870,6 @@ class WishListProvider extends ServiceProvider
     }
 }
 ```
-
-IF you are having problem with multiple cart instance, please see the codes on
-this demo repo here: [DEMO](https://github.com/darryldecode/laravelshoppingcart-demo)
-
 ## Exceptions
 
 There are currently only two exceptions.
@@ -1237,12 +1223,6 @@ class WishListProvider extends ServiceProvider
 Still feeling confuse on how to do custom database storage? Or maybe doing multiple cart instances?
 See the demo repo to see the codes and how you can possibly do it and expand base on your needs or make it
 as a guide & reference. See links below:
-
-[See Demo App Here](https://shoppingcart-demo.darrylfernandez.com/cart)
-
-OR
-
-[See Demo App Repo Here](https://github.com/darryldecode/laravelshoppingcart-demo)
 
 ## License
 
