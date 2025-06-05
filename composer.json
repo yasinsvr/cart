@@ -1,30 +1,32 @@
 {
   "name": "yasinsvr/cart",
-  "description": "Laravel Shopping cart",
-  "keywords": [
-    "laravel",
-    "shopping cart",
-    "cart"
-  ],
+  "description": "Laravel shopping cart",
+  "type": "library",
   "license": "MIT",
+
+  "keywords": ["laravel", "shopping cart", "cart"],
+
   "authors": [
     {
       "name": "Yasin Zolfaghari",
       "email": "yasin.zolfaghari.dev@gmail.com"
     }
   ],
+
   "require": {
-    "php": ">=8.1",
-    "illuminate/support": "10.0.*|^11.0|^12.0",
-    "illuminate/validation": "10.0.*|^11.0|^12.0",
-    "illuminate/translation": "10.0.*|^11.0|^12.0"
+    "php": "^8.1",
+    "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+    "illuminate/validation": "^10.0 || ^11.0 || ^12.0",
+    "illuminate/translation": "^10.0 || ^11.0 || ^12.0"
   },
+
   "require-dev": {
     "mockery/mockery": "^1.4.2",
-    "phpunit/phpunit": "^9.0",
-    "symfony/var-dumper": "5.1.5.*@dev",
+    "phpunit/phpunit": "^10.0",
+    "symfony/var-dumper": "5.1.x-dev",
     "imanghafoori/eloquent-mockery": "dev-main"
   },
+
   "autoload": {
     "psr-4": {
       "YasinSVR\\Cart\\": "src/"
@@ -33,6 +35,7 @@
       "src/Tools/helpers.php"
     ]
   },
+
   "autoload-dev": {
     "psr-4": {
       "Tests\\": "tests/",
@@ -42,7 +45,10 @@
       "tests/helpers/functions.php"
     ]
   },
+
   "minimum-stability": "dev",
+  "prefer-stable": true,
+
   "extra": {
     "laravel": {
       "providers": [
