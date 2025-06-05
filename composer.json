@@ -1,0 +1,39 @@
+{
+    "name": "yasinsvr/cart",
+    "description": "Laravel Shopping cart",
+    "keywords": ["laravel", "shopping cart", "cart"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yasin Zolfaghari",
+            "email": "yasin.zolfaghari.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "10.0|^11.0|^12.*",
+        "illuminate/validation": "10.0|^11.0|^12.*",
+        "illuminate/translation": "10.0|^11.0|^12.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4.2",
+        "phpunit/phpunit": "^9.0",
+        "symfony/var-dumper": "5.1.5.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "YasinSVR\\": "src/YasinSVR"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YasinSVR\\Cart\\CartServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "YasinSVR\\Cart\\Facades\\CartFacade"
+            }
+        }
+    }
+}
