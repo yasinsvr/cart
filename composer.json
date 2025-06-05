@@ -3,7 +3,7 @@
   "description": "Laravel shopping cart",
   "type": "library",
   "license": "MIT",
-
+  "version": "v1.0.0",
   "keywords": ["laravel", "shopping cart", "cart"],
 
   "authors": [
@@ -57,6 +57,9 @@
       "aliases": {
         "Cart": "YasinSVR\\Cart\\Facades\\CartFacade"
       }
+    },
+    "branch-alias": {
+      "dev-main": "1.x-dev"
     }
   }
 }
