@@ -1,5 +1,6 @@
 # Laravel Shopping Cart
 A Shopping Cart Implementation for Laravel Framework
+###**It's for viersions 10 & 11 & 12**
 
 ## INSTALLATION
 
