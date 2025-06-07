@@ -29,8 +29,8 @@ YasinSVR\Cart\CartServiceProvider::class
 php artisan vendor:publish --provider="YasinSVR\Cart\CartServiceProvider" --tag="config"
 ```
 
-```php
+**
 Enjoy from laravel shopping cart :)
-```
+**
 
 
